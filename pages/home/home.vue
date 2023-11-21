@@ -31,7 +31,7 @@
         </div>
         <div class="col">
             <form class="d-flex" role="search">
-                <NuxtLink to="/rekomen" class="btn btn-dak"><button type="button" class="btn btn-primary btn-lg">RECOMMENDED BOOKS</button></NuxtLink>
+                <NuxtLink to="/rekomen" class="btn btn-dak"><button type="button" class="btn btn-primary btn-lg">RECOMMENDED</button></NuxtLink>
             </form>
         </div>
         <div class="col">

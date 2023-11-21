@@ -1,8 +1,14 @@
 <template>
     <div>
-        <nav class="navbar ">
+        
+<nav class="navbar ">
             <div class="container-fluid row text-center">
-                <div class="cari col-10 m-2">
+                <nav class="navbar">
+  <div class="container-fluid justify-content-center">
+    <a class="navbar-brand justify-content-center" href="#"><h2>BOOK SEARCH TOOL </h2><h6>SMKN4 TASIKMALAYA</h6></a>
+  </div>
+</nav>
+                <div class="cari col-11 ">
                     <form @submit.prevent="getData">
                         <input v-model="keyword" class="form-control me-2" type="search" placeholder="BUKU APA YANG ANDA CARI ?">
                     </form>
