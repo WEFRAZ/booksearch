@@ -5,7 +5,7 @@
             <div class="container-fluid row text-center">
                 <nav class="navbar">
   <div class="container-fluid justify-content-center">
-    <a class="navbar-brand justify-content-center" href="#"><h2>BOOK SEARCH TOOL </h2><h6>SMKN4 TASIKMALAYA</h6></a>
+    <a class="navbar-brand justify-content-center" href="#"><h2 class=" text-light">BOOK SEARCH TOOL </h2><h6 class=" text-light">SMKN4 TASIKMALAYA</h6></a>
   </div>
 </nav>
                 <div class="cari col-11 ">
@@ -14,14 +14,15 @@
                     </form>
                 </div>
                 <div class="kembali col-1">
-                    <NuxtLink to="/home/home" class="btn btn-dak col-2"><img src="~/assets/img/home.png" alt=""></NuxtLink>
+                    <NuxtLink to="/home/home" class="btn btn-dak col-2"><button type="button" class="btn btn-light">EXIT</button></NuxtLink>
                 </div>
             </div>
         </nav>
-        <div class="row">
-            <div v-for="book in books" :key="book.id" class="col-2">
-                <div class="card">
+        <div class="row justify-content-evenly">
+            <div v-for="book in books" :key="book.id" class="col-sm-2">
+                <div class="card m-3">
                     <div class="char-header">
+                        
                         <NuxtLink :to="`/detail/${book.id}`">
                             <img :src="book.cover" alt="cover" class="cover">
                         </NuxtLink>

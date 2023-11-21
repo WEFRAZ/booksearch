@@ -23,7 +23,7 @@
         </div>
     </nav>
     <div class="conten " style="width: 100%; height: 5;">
-        <img src="~/assets/img/PER.jpg" style="width: 100%; height: 550px;">
+        <img src="~/assets/img/PER.jpg" style="width: 100%; height: 400px;">
 
     </div>
     <div class="row" style="padding-top: 80px; padding-bottom: 80px;">
